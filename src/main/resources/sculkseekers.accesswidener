@@ -1,0 +1,4 @@
+accessWidener	v2	named
+
+accessible	method	net/minecraft/world/event/Vibrations$VibrationListener	isOccluded	(Lnet/minecraft/world/World;Lnet/minecraft/util/math/Vec3d;Lnet/minecraft/util/math/Vec3d;)Z
+accessible	field	net/minecraft/client/render/entity/model/EntityModelLayers	MAIN	Ljava/lang/String;

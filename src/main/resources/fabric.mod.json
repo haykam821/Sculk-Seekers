@@ -1,0 +1,47 @@
+{
+	"schemaVersion": 1,
+	"id": "sculkseekers",
+	"version": "${version}",
+	"name": "Sculk Seekers",
+	"description": "Adds remotely-controllable devices to Minecraft.",
+	"authors": [
+		"haykam821"
+	],
+	"contact": {
+		"homepage": "https://github.com/haykam821/Sculk-Seekers#readme",
+		"issues": "https://github.com/haykam821/Sculk-Seekers/issues",
+		"sources": "https://github.com/haykam821/Sculk-Seekers"
+	},
+	"entrypoints": {
+		"main": [
+			"io.github.haykam821.sculkseekers.SculkSeekers"
+		],
+		"client": [
+			"io.github.haykam821.sculkseekers.client.SculkSeekersClient"
+		],
+		"fabric-datagen": [
+			"io.github.haykam821.sculkseekers.data.SculkSeekersDatagen"
+		]
+	},
+	"mixins": [
+		"sculkseekers.mixin.json",
+		{
+			"config": "sculkseekers.client.mixin.json",
+			"environment": "client"
+		}
+	],
+	"accessWidener": "sculkseekers.accesswidener",
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.discord": "https://haykam.com/links/discord"
+			}
+		}
+	},
+	"license": "MIT",
+	"depends": {
+		"fabricloader": ">=0.4.0",
+		"fabric-api": "*",
+		"java": ">=17"
+	}
+}

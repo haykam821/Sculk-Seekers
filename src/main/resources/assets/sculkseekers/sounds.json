@@ -1,0 +1,72 @@
+{
+	"entity.sculk_seeker.clicking": {
+		"sounds": [
+			{
+				"name": "block/sculk_sensor/sculk_clicking1",
+				"volume": 0.73
+			},
+			{
+				"name": "block/sculk_sensor/sculk_clicking2",
+				"volume": 0.73
+			},
+			{
+				"name": "block/sculk_sensor/sculk_clicking3",
+				"volume": 0.73
+			},
+			{
+				"name": "block/sculk_sensor/sculk_clicking4",
+				"volume": 0.73
+			},
+			{
+				"name": "block/sculk_sensor/sculk_clicking5",
+				"volume": 0.73
+			},
+			{
+				"name": "block/sculk_sensor/sculk_clicking6",
+				"volume": 0.73
+			}
+		],
+		"subtitle": "subtitles.entity.sculkseekers.sculk_seeker.clicking"
+	},
+	"entity.sculk_seeker.clicking_stop": {
+		"sounds": [
+			{
+				"name": "block/sculk_sensor/sculk_clicking_stop1",
+				"volume": 0.62
+			},
+			{
+				"name": "block/sculk_sensor/sculk_clicking_stop2",
+				"volume": 0.62
+			},
+			{
+				"name": "block/sculk_sensor/sculk_clicking_stop3",
+				"volume": 0.62
+			},
+			{
+				"name": "block/sculk_sensor/sculk_clicking_stop4",
+				"volume": 0.62
+			},
+			{
+				"name": "block/sculk_sensor/sculk_clicking_stop5",
+				"volume": 0.62
+			}
+		],
+		"subtitle": "subtitles.entity.sculkseekers.sculk_seeker.clicking_stop"
+	},
+	"entity.sculk_seeker.death": {
+		"sounds": [
+			"mob/warden/death_1",
+			"mob/warden/death_2"
+		],
+		"subtitle": "subtitles.entity.sculkseekers.sculk_seeker.death"
+	},
+	"entity.sculk_seeker.hurt": {
+		"sounds": [
+			"mob/warden/hurt_1",
+			"mob/warden/hurt_2",
+			"mob/warden/hurt_3",
+			"mob/warden/hurt_4"
+		],
+		"subtitle": "subtitles.entity.sculkseekers.sculk_seeker.hurt"
+	}
+}

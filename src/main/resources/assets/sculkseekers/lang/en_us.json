@@ -1,0 +1,9 @@
+{
+	"entity.sculkseekers.sculk_seeker": "Sculk Seeker",
+	"item.sculkseekers.sculk_seeker": "Sculk Seeker",
+	"item.sculkseekers.seeker_controller": "Seeker Controller",
+	"subtitles.entity.sculkseekers.sculk_seeker.clicking": "Sculk Seeker clicks",
+	"subtitles.entity.sculkseekers.sculk_seeker.clicking_stop": "Sculk Seeker stops clicking",
+	"subtitles.entity.sculkseekers.sculk_seeker.death": "Sculk Seeker dies",
+	"subtitles.entity.sculkseekers.sculk_seeker.hurt": "Sculk Seeker hurts"
+}
